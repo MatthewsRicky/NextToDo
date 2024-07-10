@@ -1,16 +1,5 @@
-import Footer from "./components/footer";
-import Nav from "./components/nav";
-
 function App() {
-  return (
-    <main>
-      <Nav />
-      <div>
-        <h1 className="text-4xl">Test</h1>
-      </div>
-      <Footer />
-    </main>
-  );
+  return <div className="font-sans bg-black min-h-screen"></div>;
 }
 
 export default App;
