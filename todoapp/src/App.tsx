@@ -5,7 +5,9 @@ function App() {
   return (
     <main>
       <Nav />
-      <div>Home</div>
+      <div>
+        <h1 className="text-4xl">Test</h1>
+      </div>
       <Footer />
     </main>
   );
