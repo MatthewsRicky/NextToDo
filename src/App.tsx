@@ -10,7 +10,12 @@ function App() {
         <ul></ul>
         <section className="col-[2/3] row-[2/3] bg-[#fffcf9] border-l border-black/[8%]"></section>
       </main>
-      <footer></footer>
+      <footer className="flex justify-between w-[972px] items-center text-[11px]">
+        <small>&copy; 2024 copyright by Ricky</small>
+        <p>
+          version <b>1.5</b>
+        </p>
+      </footer>
     </div>
   );
 }
