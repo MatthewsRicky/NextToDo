@@ -6,9 +6,9 @@ function App() {
       </h1>
 
       <main className="relative w-[972px] rounded-[8px] bg-white h-[636px] shadow-[0_4px_4px_rgba(0,0,0,0.8)] grid grid-cols-[7fr_4fr] grid-rows-[50px_1fr]">
-        <header></header>
+        <header className="col-[1/3] row-[1/2 bg-[#fbf5ed]"></header>
         <ul></ul>
-        <section></section>
+        <section className="col-[2/3] row-[2/3] bg-[#fffcf9]"></section>
       </main>
       <footer></footer>
     </div>
