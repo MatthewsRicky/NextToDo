@@ -5,7 +5,7 @@ function App() {
         To Do App
       </h1>
 
-      <main className="relative w-[972px] rounded-[8px] bg-white h-[636px] shadow-[0_4px_4px_rgba(0,0,0,0.8)]">
+      <main className="relative w-[972px] rounded-[8px] bg-white h-[636px] shadow-[0_4px_4px_rgba(0,0,0,0.8)] grid grid-cols-[7fr_4fr] grid-rows-[50px_1fr]">
         <header></header>
         <ul></ul>
         <section></section>
