@@ -6,7 +6,7 @@ export default function Sidebar() {
           <h1>Add a new To do</h1>
           <input
             type="text"
-            className="px-2 py-3 border-solid border-black/30"
+            className="px-2 py-3 border-solid border-black/70"
           />
           <button type="submit">Add</button>
         </form>
