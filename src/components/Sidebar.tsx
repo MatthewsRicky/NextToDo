@@ -2,7 +2,7 @@ export default function Sidebar() {
   return (
     <div>
       <section className="flex col-[2/3] row-[2/3] bg-[#fffcf9] border-l border-black/[8%]">
-        <form>
+        <form className="flex flex-col gap-y-2 px-4">
           <h1>Add a new To do</h1>
           <input
             type="text"
