@@ -1,7 +1,9 @@
-import React from "react";
-
 function Logo() {
-  return <div>Logo</div>;
+  return (
+    <main>
+      <img src="https://bytegrad.com/course-assets/react-nextjs/dots.png" />
+    </main>
+  );
 }
 
 export default Logo;
