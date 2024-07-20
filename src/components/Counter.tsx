@@ -1,7 +1,9 @@
-import React from "react";
-
-function Counter() {
-  return <div>Counter</div>;
+export default function Counter() {
+  return (
+    <div>
+      <p>
+        <b>0</b> / 0 todos completed
+      </p>
+    </div>
+  );
 }
-
-export default Counter;
