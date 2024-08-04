@@ -1,7 +1,7 @@
 export default function AddTodoForm() {
   return (
-    <div>
-      <h2 className="font-medium bg-[#231d15] px-2 py-4 text-white">
+    <div className="flex flex-col">
+      <h2 className="text-center font-medium bg-[#231d15] px-2 py-4 text-white">
         Add To Do
       </h2>
       <form>
