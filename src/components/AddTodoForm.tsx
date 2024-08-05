@@ -6,7 +6,9 @@ export default function AddTodoForm() {
       </h2>
       <form>
         <input type="text" />
-        <button type="submit">Add To List</button>
+        <button className="rounded-md px-2 py-2" type="submit">
+          Add To List
+        </button>
       </form>
     </div>
   );
