@@ -1,7 +1,7 @@
 export default function AddTodoForm() {
   return (
     <div className="flex flex-col">
-      <h2 className="text-center font-medium bg-[#231d15]/70 hover:bg-[#231d15/50] px-2 py-4 text-white hover:scale-105">
+      <h2 className="text-center font-medium bg-[#231d15]/70 hover:bg-[#231d15/50] px-2 py-4 text-white ">
         Add To Do
       </h2>
       <form>
@@ -10,7 +10,7 @@ export default function AddTodoForm() {
           type="text"
         />
         <button
-          className="bg-[#231d15]/60 hover:bg-[#231d15/40] rounded-md px-2 py-2"
+          className="bg-[#231d15]/60 hover:bg-[#231d15/40] rounded-md px-2 py-2 hover:scale-105"
           type="submit"
         >
           Add To List
