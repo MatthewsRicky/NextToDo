@@ -10,7 +10,7 @@ export default function AddTodoForm() {
           type="text"
         />
         <button
-          className="bg-[#231d15]/60 hover:bg-[#231d15/40] rounded-md px-2 py-2 hover:scale-105"
+          className="bg-[#231d15]/60 hover:bg-[#231d15/40] rounded-md px-2 py-2 hover:scale-105 active:shadow-md"
           type="submit"
         >
           Add To List
