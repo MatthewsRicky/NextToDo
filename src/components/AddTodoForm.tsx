@@ -6,7 +6,7 @@ export default function AddTodoForm() {
       </h2>
       <form>
         <input
-          className="border rounded-sm my-6 px-2 py-4 w-full"
+          className="border rounded-sm shadow-sm my-6 px-2 py-4 w-full"
           type="text"
         />
         <button
